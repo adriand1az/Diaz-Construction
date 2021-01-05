@@ -1,0 +1,44 @@
+body{
+    background-color: slategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav li, nav a{
+    font-size: 1.50rem;
+}
+#one h1{
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+#heading-two{
+    font-size: 4.5rem;
+    font-weight: 200;
+}
+#footer {
+    font-size: 1.5rem;
+
+    background-color: #51575D;
+}
+
+.scrolled{
+    background-color: #51575D;
+    opacity: .92;
+    transition: .25s;
+
+}
+@media (max-width:1300px){
+    #one h1{
+        font-size: 3rem;
+    }
+    #heading-two{
+        font-size: 2.5rem;
+    }
+    #one img{
+        margin-top: 60px;
+    }
+}
+@media (max-width:850px){
+    #one h1, #one img{
+        margin-top: 60px;
+    }
+}
