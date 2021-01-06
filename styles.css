@@ -1,5 +1,5 @@
 body{
-    background-color: slategray;
+    background-color: #3A7CA5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav li, nav a{
@@ -8,24 +8,54 @@ nav li, nav a{
 #one h1{
     font-size: 5rem;
     font-weight: 200;
+    color: #d9dcd6;
+}
+h2{
+    color: #d9dcd6;
+}
+p{
+    color: #16425B;
+}
+#company{
+    color: #16425B;
+}
+nav a:hover{
+    color: #81C3D7 !important;
 }
 
 #heading-two{
     font-size: 4.5rem;
     font-weight: 200;
 }
-#footer {
+footer {
     font-size: 1.5rem;
-
-    background-color: #51575D;
+    color: #16425B !important;
+    background-color: #d9dcd6;
 }
 
+.dropdown-menu{
+    background-color: #d9dcd6;
+}
+.dropdown-menu .dropdown-item{
+    background-color: #d9dcd6;
+}
+footer a{
+    color: inherit;
+}
+
+footer a:hover{
+    color: #81C3D7 !important;
+}
+
+/* Javascript */
 .scrolled{
-    background-color: #51575D;
+    background-color: #d9dcd6;
     opacity: .92;
-    transition: .25s;
+    transition: .1s;
 
 }
+
+/* Media Queries */
 @media (max-width:1300px){
     #one h1{
         font-size: 3rem;
@@ -42,3 +72,10 @@ nav li, nav a{
         margin-top: 60px;
     }
 }
+@media (max-width: 1100px){
+    footer ul li{
+        display: block !important;
+        margin: 7px;
+    }
+}
+
