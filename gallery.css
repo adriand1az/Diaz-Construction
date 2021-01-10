@@ -1,0 +1,9 @@
+.row{
+    margin-top: 50px;
+}
+
+@media (max-width: 780px){
+    img.gallery{
+        margin-top: 50px;
+    }
+}
