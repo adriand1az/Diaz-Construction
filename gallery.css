@@ -2,8 +2,11 @@
     margin-top: 50px;
 }
 
-@media (max-width: 780px){
+@media (max-width: 765px){
     img.gallery{
         margin-top: 50px;
+        height: 40vh;
+        width: 100%;
     }
+
 }
